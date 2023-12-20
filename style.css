@@ -1,0 +1,59 @@
+body{
+    background-image: url(/image/eletrica.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    margin: 0px;
+}
+
+h1, p{
+    margin: 0px;
+}
+
+p{
+    font-size: 20px;
+}
+
+.conteudo{
+    position: absolute;
+    bottom: 0px;
+    display: grid;
+    grid-template-columns: repeat(2, fr);
+    justify-items: start;
+    align-items: start;
+    padding: 40px;
+    box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.573);
+    background: rgba(0, 0, 0, 0.636);
+    border-radius: 10px;
+}
+
+.titulo{
+    text-transform: uppercase;
+}
+
+.descricao{
+    font-weight: bold;
+}
+
+.destaque{
+    color: yellow;
+}
+
+.botao{
+    text-decoration: none;
+    background: rgb(0, 0, 255);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgb(0, 145, 255) 100%);
+    color: #fff;
+    padding: 10px 50px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    text-align: center;
+    filter: saturate(300%);
+}
+
+img{
+    position: absolute;
+    left: 58%;
+    bottom: 0px;
+}
